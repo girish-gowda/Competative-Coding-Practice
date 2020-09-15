@@ -21,3 +21,14 @@ The first line of the input contains two integer numbers n and k (2≤n≤109, 1
 Output
 
 Print one integer number — the result of the decreasing n by one k times.
+
+
+***3. WayTooLongWords***
+
+Input
+
+The first line contains an integer n (1 ≤ n ≤ 100). Each of the following n lines contains one word. All the words consist of lowercase Latin letters and possess the lengths of from 1 to 100 characters.
+
+Output
+
+Print n lines. The i-th line should contain the result of replacing of the i-th word from the input data.
