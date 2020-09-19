@@ -61,3 +61,27 @@ No passenger will enter the train at the last stop. That is, bn = 0.
 Output
 
 Print a single integer denoting the minimum possible capacity of the tram (0 is allowed).
+
+
+***6. Stones on the Table***
+
+Input
+
+The first line contains integer n (1 ≤ n ≤ 50) — the number of stones on the table.
+
+The next line contains string s, which represents the colors of the stones. We'll consider the stones in the row numbered from 1 to n from left to right. Then the i-th character s equals "R", if the i-th stone is red, "G", if it's green and "B", if it's blue.
+
+Output
+
+Print a single integer — the answer to the problem.
+
+
+***7. Word Capitalization***
+
+Input
+
+A single line contains a non-empty word. This word consists of lowercase and uppercase English letters. The length of the word will not exceed 103.
+
+Output
+
+Output the given word after capitalization.
