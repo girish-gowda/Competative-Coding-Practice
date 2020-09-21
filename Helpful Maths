@@ -1,0 +1,52 @@
+import java.util.*;
+
+public class AlphaBeta{
+
+     public static void main(String []args){
+        Scanner sc = new Scanner(System.in);
+        String input = sc.nextLine();
+        String[] str = input.split("\\+");
+        int[] a = new int[str.length];
+        
+        for(int i=0;i<a.length; i++){
+            a[i] = Integer.parseInt(str[i]);
+        }
+        
+        
+        /*
+        //Bubble sort
+        for(int i = 0; i < a.length; i++){
+            int temp = 0;
+            for(int j = 1; j< a.length - i; j++){
+                if(a[j-1]>a[j]){
+                    temp = a[j-1];
+                    a[j-1] = a[j];
+                    a[j] = temp;
+                }
+            }
+        }*/
+        
+        //Insertion sort
+        for (int i = 1; i < a.length; ++i) { 
+            int key = a[i]; 
+            int j = i - 1; 
+        
+            while (j >= 0 && a[j] > key) { 
+                a[j + 1] = a[j]; 
+                j = j - 1; 
+            }
+            
+            a[j + 1] = key; 
+            
+        }
+        
+        for(int i=0;i<a.length; i++){
+            if(i<a.length-1){
+               System.out.print(a[i]+"+");
+            }else{
+               System.out.print(a[i]); 
+            }
+        }
+        
+     }
+}
