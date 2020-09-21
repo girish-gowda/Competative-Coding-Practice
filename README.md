@@ -85,3 +85,14 @@ A single line contains a non-empty word. This word consists of lowercase and upp
 Output
 
 Output the given word after capitalization.
+
+
+***8. Helpful Maths***
+
+Input
+
+The first line contains a non-empty string s — the sum Xenia needs to count. String s contains no spaces. It only contains digits and characters "+". Besides, string s is a correct sum of numbers 1, 2 and 3. String s is at most 100 characters long.  ***input: 3+2+1***
+
+Output
+
+Print the new sum that Xenia can count. ***output: 1+2+3***
