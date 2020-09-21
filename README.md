@@ -108,4 +108,4 @@ The second line contains n space-separated integers a1,a2,...,an (0≤ai≤100),
 
 Output
 
-Output the number of participants who advance to the next round.
+Output the number of participants who advance to the next round
