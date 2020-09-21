@@ -1,5 +1,5 @@
-# Competative-Coding-Practice
-Competative Coding Practice
+# Competitive-Coding-Practice
+Competitive Coding Practice
 
 ***1. A-WaterMelon***
 
