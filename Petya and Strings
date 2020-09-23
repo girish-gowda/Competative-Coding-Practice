@@ -1,0 +1,21 @@
+import java.util.*;
+
+public class AlphaBeta {
+      public static void main(String []args){
+        Scanner sc = new Scanner(System.in);
+        String str1 = sc.next().toLowerCase();
+        String str2 = sc.next().toLowerCase();
+        int count = 0;
+        for(int i =0; i<str1.length(); i++){
+            if((str1.charAt(i) - 'a')!=(str2.charAt(i) - 'a')){
+                if((str1.charAt(i) - '0') > (str2.charAt(i) - '0')){
+                    count = 1;
+                }else{
+                    count = -1;
+                }
+                break;
+            }
+        }
+        System.out.println(count);
+     }
+}

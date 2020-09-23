@@ -109,3 +109,38 @@ The second line contains n space-separated integers a1,a2,...,an (0≤ai≤100),
 Output
 
 Output the number of participants who advance to the next round.
+
+
+***10. 231A***
+
+Input
+
+The first input line contains a single integer n (1≤n≤1000) — the number of problems in the contest. Then n lines contain three integers each, each integer is either 0 or 1. If the first number in the line equals 1, then Petya is sure about the problem's solution, otherwise he isn't sure. The second number shows Vasya's view on the solution, the third number shows Tonya's view. The numbers on the lines are separated by spaces.
+
+Output
+
+Print a single integer — the number of problems the friends will implement on the contest.
+
+
+***11. Bit++***
+
+Input
+
+The first line contains a single integer n (1≤n≤150) — the number of statements in the programme.
+
+Next n lines contain a statement each. Each statement contains exactly one operation (++ or --) and exactly one variable x (denoted as letter «X»). Thus, there are no empty statements. The operation and the variable can be written in any order.
+
+Output
+
+Print a single integer — the final value of x.
+
+
+***12. Petya and Strings***
+
+Input
+
+Each of the first two lines contains a bought string. The strings' lengths range from 1 to 100 inclusive. It is guaranteed that the strings are of the same length and also consist of uppercase and lowercase Latin letters.
+
+Output
+
+If the first string is less than the second one, print "-1". If the second string is less than the first one, print "1". If the strings are equal, print "0". Note that the letters' case is not taken into consideration when the strings are compared.
