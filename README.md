@@ -155,3 +155,36 @@ In a single line you are given two integers M and N — board sizes in squares (
 Output
 
 Output one number — the maximal number of dominoes, which can be placed.
+
+
+***14. Beautiful Matrix***
+
+Input
+
+The input consists of five lines, each line contains five integers: the j-th integer in the i-th line of the input represents the element of the matrix that is located on the intersection of the i-th row and the j-th column. It is guaranteed that the matrix consists of 24 zeroes and a single number one.
+
+Output
+
+Print a single integer — the minimum number of moves needed to make the matrix beautiful.
+
+
+***15. Male or Female***
+
+Input
+
+The first line contains a non-empty string, that contains only lowercase English letters — the user name. This string contains at most 100 letters.
+
+Output
+
+If it is a female by our hero's method, print "CHAT WITH HER!" (without the quotes), otherwise, print "IGNORE HIM!" (without the quotes).
+
+
+***16. Soldier and Bananas***
+
+Input
+
+The first line contains three positive integers k,n,w (1≤k,w≤1000, 0≤n≤10^9), the cost of the first banana, initial number of dollars the soldier has and number of bananas he wants.
+
+Output
+
+Output one integer — the amount of dollars that the soldier must borrow from his friend. If he doesn't have to borrow money, output 0.

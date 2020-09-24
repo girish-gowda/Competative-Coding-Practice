@@ -1,0 +1,21 @@
+import java.util.*;
+
+public class AlphaBeta {
+      public static void main(String []args){
+        Scanner sc = new Scanner(System.in);
+        int k = sc.nextInt(); // cost of 1 banana
+        long n = sc.nextLong(); // he had n dollars
+        int w = sc.nextInt(); // no of bananas to buy
+        
+        long sum = 0;
+        for(int i=1; i<=w; i++){
+            sum = sum + k*i;
+        }
+		
+		if(sum>n){
+        System.out.println(sum - n);
+		}else{
+		System.out.println(0);
+		}
+     }
+}
