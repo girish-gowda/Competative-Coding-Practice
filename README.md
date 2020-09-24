@@ -144,3 +144,14 @@ Each of the first two lines contains a bought string. The strings' lengths range
 Output
 
 If the first string is less than the second one, print "-1". If the second string is less than the first one, print "1". If the strings are equal, print "0". Note that the letters' case is not taken into consideration when the strings are compared.
+
+
+***13. Domino Piling***
+
+Input
+
+In a single line you are given two integers M and N — board sizes in squares (1≤M≤N≤16).
+
+Output
+
+Output one number — the maximal number of dominoes, which can be placed.
