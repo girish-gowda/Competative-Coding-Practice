@@ -187,4 +187,4 @@ The first line contains three positive integers k,n,w (1≤k,w≤1000, 0≤n≤1
 
 Output
 
-Output one integer — the amount of dollars that the soldier must borrow from his friend. If he doesn't have to borrow money, output 0.
+Output one integer — the amount of dollars that the soldier must borrow from his friend. If he doesn't have to borrow money, output 0
