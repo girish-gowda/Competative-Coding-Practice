@@ -154,4 +154,4 @@ In a single line you are given two integers M and N — board sizes in squares (
 
 Output
 
-Output one number — the maximal number of dominoes, which can be placed.
+Output one number — the maximal number of dominoes, which can be placed
