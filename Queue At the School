@@ -8,16 +8,16 @@ public class AlphaBeta{
         int t = sc.nextInt();
         
         String str = sc.next();
+        char[] ch = str.toCharArray();
         for(int i=0;i<t;i++){
             for(int j=1;j<n;j++){
-                if(str[j-1] == 'B' && str[j] == 'G'){
-                    char temp = str[j-1];
-                    str[j-1] = str[j];
-                    str[j] = temp;
+                if(ch[j-1] == 'B' && ch[j] == 'G'){
+                    ch[j-1] = 'G';
+                    ch[j] = 'B';
                     j++;
                 }
             }
         }
-        System.out.println(str);
+        System.out.println(ch);
      }
 }
