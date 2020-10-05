@@ -188,3 +188,14 @@ The first line contains three positive integers k,n,w (1≤k,w≤1000, 0≤n≤1
 Output
 
 Output one integer — the amount of dollars that the soldier must borrow from his friend. If he doesn't have to borrow money, output 0.
+
+
+***17. Elephant-617A***
+
+Input
+
+The first line of the input contains an integer x (1 ≤ x ≤ 1 000 000) — The coordinate of the friend's house.
+
+Output
+
+Print the minimum number of steps that elephant needs to make to get from point 0 to point x.
