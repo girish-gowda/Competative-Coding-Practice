@@ -1,0 +1,39 @@
+import java.util.*;
+
+public class AlphaBeta{
+
+     public static void main(String[] args){
+		java.util.Scanner sc = new java.util.Scanner(System.in);
+        int x = sc.nextInt();
+        int[] positions = {1,2,3,4,5};
+        int a = 0;int b = 0;
+        if(x>5){
+            a = x/positions[4];
+            b = x%positions[4];
+            
+        if(b%positions[3] == 0){
+            a = a + b/positions[3];
+        }else if(b%positions[2] == 0){
+            a = a + b/positions[2];
+        }else if(b%positions[1] == 0){
+            a = a + b/positions[1];
+        }else if(b%positions[0] == 0){
+            a = a + b/positions[0];
+        }
+    }else{
+        if(x%positions[4] == 0){
+            a = x/positions[4];
+        }else if(x%positions[3] == 0){
+            a = x/positions[3];
+        }else if(x%positions[2] == 0){
+            a = x/positions[2];
+        }else if(x%positions[1] == 0){
+            a = x/positions[1];
+        }else if(x%positions[0] == 0){
+            a = x/positions[0];
+        }
+    }
+        
+        System.out.println(a);
+     }
+}
