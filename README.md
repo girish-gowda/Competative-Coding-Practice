@@ -199,3 +199,14 @@ The first line of the input contains an integer x (1 ≤ x ≤ 1 000�
 Output
 
 Print the minimum number of steps that elephant needs to make to get from point 0 to point x.
+
+
+***18. Queue at the School***
+
+Input
+
+The first line contains two integers n and t (1 ≤ n, t ≤ 50), which represent the number of children in the queue and the time after which the queue will transform into the arrangement you need to find.
+
+Output
+
+Print string a, which describes the arrangement after t seconds. If the i-th position has a boy after the needed time, then the i-th character a must equal "B", otherwise it must equal "G".
