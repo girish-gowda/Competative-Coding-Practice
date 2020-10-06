@@ -295,3 +295,16 @@ The only line of the input contains a single integer n (1 ≤ n ≤ 100)
 Output
 
 For example if n = 1, then express feeling as "I hate it" or if n = 2 it's "I hate that I love it", and if n = 3 it's "I hate that I love that I hate it" and so on.
+
+
+***26. In Search of an Easy Problem***
+
+Input
+
+The first line contains a single integer n (1≤n≤100) — the number of people who were asked to give their opinions.
+
+The second line contains n integers, each integer is either 0 or 1. If i-th integer is 0, then i-th person thinks that the problem is easy; if it is 1, then i-th person thinks that the problem is hard.
+
+Output
+
+Print one word: "EASY" if the problem is easy according to all responses, or "HARD" if there is at least one person who thinks the problem is hard.
