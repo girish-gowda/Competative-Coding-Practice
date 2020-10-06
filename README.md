@@ -284,3 +284,14 @@ The single line contains integer y (1000 ≤ y ≤ 9000) — the year nu
 Output
 
 Print a single integer — the minimum year number that is strictly larger than y and all it's digits are distinct. It is guaranteed that the answer exists.
+
+
+***25. Hulk - 705A***
+
+Input
+
+The only line of the input contains a single integer n (1 ≤ n ≤ 100) — the number of layers of love and hate.
+
+Output
+
+For example if n = 1, then express feeling as "I hate it" or if n = 2 it's "I hate that I love it", and if n = 3 it's "I hate that I love that I hate it" and so on.
