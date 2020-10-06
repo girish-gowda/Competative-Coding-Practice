@@ -1,0 +1,49 @@
+import java.util.*;
+
+public class AlphaBeta{
+
+	public static boolean isNumberPresent(int a, int[] b){
+        
+        for(int i=0;i<b.length;i++){
+            if(a==b[i]){
+                return true;
+            }
+        }
+        
+        return false;
+    }
+
+     public static void main(String[] args){
+		java.util.Scanner sc = new java.util.Scanner(System.in);
+        int n = sc.nextInt();
+		
+        int[] b = {20,20,20,20};
+        int count = 0;
+		
+        for(int i=++n; i<9015; i++){
+            int j = i;int k=0;
+            while(j>0){
+                if(isNumberPresent(j%10, b)){
+                    break;
+                }else{
+                    b[k] = j%10;
+                    count++;
+                }
+                k++;
+                j = j/10;
+            }
+            
+            if(count==4){
+                System.out.println(i);
+                break;
+            }else{
+                k = 0;
+                b[0] = 20;
+                b[1] = 20;
+                b[2] = 20;
+                b[3] = 20;
+                count = 0;
+            }
+        }
+     }
+}
