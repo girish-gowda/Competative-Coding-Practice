@@ -233,3 +233,13 @@ Output
 
 Print the corrected word s. If the given word s has strictly more uppercase letters, make the word written in the uppercase register, otherwise - in the lowercase one.
 
+
+***21. Translation - 41A***
+
+Input
+
+The first line contains word s, the second line contains word t. The words consist of lowercase Latin letters. The input data do not consist unnecessary spaces. The words are not empty and their lengths do not exceed 100 symbols.
+
+Output
+
+If the word t is a word s, written reversely, print YES, otherwise print NO.
