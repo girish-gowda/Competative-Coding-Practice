@@ -221,3 +221,15 @@ The only line contains an integer n (1 ≤ n ≤ 1018).
 Output
 
 Print on the single line "YES" if n is a nearly lucky number. Otherwise, print "NO" (without the quotes).
+
+
+***20. 59A - Word***
+
+Input
+
+The first line contains a word s — it consists of uppercase and lowercase Latin letters and possesses the length from 1 to 100.
+
+Output
+
+Print the corrected word s. If the given word s has strictly more uppercase letters, make the word written in the uppercase register, otherwise - in the lowercase one.
+
