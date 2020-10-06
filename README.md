@@ -260,3 +260,16 @@ If Anton won more games than Danik, print "Anton" (without quotes) in the only l
 If Danik won more games than Anton, print "Danik" (without quotes) in the only line of the output.
 
 If Anton and Danik won the same number of games, print "Friendship" (without quotes).
+
+
+***23. George and Accommodation***
+
+Input
+
+The first line contains a single integer n (1 ≤ n ≤ 100) — the number of rooms.
+
+The i-th of the next n lines contains two integers pi and qi (0 ≤ pi ≤ qi ≤ 100) — the number of people who already live in the i-th room and the room's capacity.
+
+Output
+
+Print a single integer — the number of rooms where George and Alex can move in.
