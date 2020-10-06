@@ -273,3 +273,14 @@ The i-th of the next n lines contains two integers pi and qi (0 ≤ pi ≤
 Output
 
 Print a single integer — the number of rooms where George and Alex can move in.
+
+
+***24. Beautiful Year***
+
+Input
+
+The single line contains integer y (1000 ≤ y ≤ 9000) — the year number.
+
+Output
+
+Print a single integer — the minimum year number that is strictly larger than y and all it's digits are distinct. It is guaranteed that the answer exists.
