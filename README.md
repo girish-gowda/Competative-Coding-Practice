@@ -210,3 +210,14 @@ The first line contains two integers n and t (1 ≤ n, t ≤ 50), whic
 Output
 
 Print string a, which describes the arrangement after t seconds. If the i-th position has a boy after the needed time, then the i-th character a must equal "B", otherwise it must equal "G".
+
+
+***19. Nearly Lucky Numbers***
+
+Input
+
+The only line contains an integer n (1 ≤ n ≤ 1018).
+
+Output
+
+Print on the single line "YES" if n is a nearly lucky number. Otherwise, print "NO" (without the quotes).
