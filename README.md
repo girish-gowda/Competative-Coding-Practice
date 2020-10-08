@@ -308,3 +308,14 @@ The second line contains n integers, each integer is either 0 or 1. If i-th inte
 Output
 
 Print one word: "EASY" if the problem is easy according to all responses, or "HARD" if there is at least one person who thinks the problem is hard.
+
+
+***27. Magnets - 344A***
+
+Input
+
+The first line of the input contains an integer n (1 ≤ n ≤ 100000) — the number of magnets. Then n lines follow. The i-th line (1 ≤ i ≤ n) contains either characters "01", if Mike put the i-th magnet in the "plus-minus" position, or characters "10", if Mike put the magnet in the "minus-plus" position.
+
+Output
+
+On the single line of the output print the number of groups of magnets.
