@@ -1,0 +1,19 @@
+import java.util.*;
+
+public class AlphaBeta {
+      public static void main(String []args){
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int a = 0;
+		int count = 0;
+        for(int i=0;i<n;i++){
+            int b = sc.nextInt();
+            if(b != a || a==0){
+                a = b;
+                count++;
+            }
+        }
+        
+        System.out.println(count);
+     }
+}
