@@ -319,3 +319,16 @@ The first line of the input contains an integer n (1 ≤ n ≤ 100000) �
 Output
 
 On the single line of the output print the number of groups of magnets.
+
+
+***28. Fence - 677A***
+
+Input
+
+The first line of the input contains two integers n and h (1 ≤ n ≤ 1000, 1 ≤ h ≤ 1000) — the number of friends and the height of the fence, respectively.
+
+The second line contains n integers ai (1 ≤ ai ≤ 2h), the i-th of them is equal to the height of the i-th person.
+
+Output
+
+Print a single integer — the minimum possible valid width of the road.
