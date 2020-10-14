@@ -365,3 +365,14 @@ The first input line contains a single integer n (1 ≤ n ≤ 100) — t
 Output
 
 Print the volume fraction in percent of orange juice in Vasya's cocktail. The answer will be considered correct if the absolute or relative error does not exceed 10 power -4.
+
+
+***32. Insomnia cure - 148A***
+
+Input
+
+Input data contains integer numbers k, l, m, n and d, each number in a separate line (1 ≤ k, l, m, n ≤ 10, 1 ≤ d ≤ 10 power 5).
+
+Output
+
+Output the number of damaged dragons.
