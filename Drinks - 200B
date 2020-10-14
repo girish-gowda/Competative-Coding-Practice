@@ -1,0 +1,14 @@
+import java.util.*;
+
+public class AlphaBeta {
+      public static void main(String []args){
+        Scanner sc = new Scanner(System.in);
+        int num = sc.nextInt();
+        double value = 0;
+        for(int i=0; i<num; i++){
+            value = value + sc.nextInt();
+        }
+        
+        System.out.format("%.12f",value/num);
+     }
+}
