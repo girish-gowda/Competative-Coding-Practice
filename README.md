@@ -343,3 +343,14 @@ The single line contains the positive integer n (1 ≤ n ≤ 10 power 15
 Output
 
 Print f(n) in a single line.
+
+
+***30. Ultra-Fast Mathematician -- 61A***
+
+Input
+
+There are two lines in each input. Each of them contains a single number. It is guaranteed that the numbers are made from 0 and 1 only and that their length is same. The numbers may start with 0. The length of each number doesn't exceed 100.
+
+Output
+
+Write one line — the corresponding answer. Do not omit the leading 0s.
