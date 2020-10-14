@@ -332,3 +332,14 @@ The second line contains n integers ai (1 ≤ ai ≤ 2h), the i-th of th
 Output
 
 Print a single integer — the minimum possible valid width of the road.
+
+
+***29. Calculating Function - 486A***
+
+Input
+
+The single line contains the positive integer n (1 ≤ n ≤ 1015).
+
+Output
+
+Print f(n) in a single line.
