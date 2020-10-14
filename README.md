@@ -338,7 +338,7 @@ Print a single integer — the minimum possible valid width of the road.
 
 Input
 
-The single line contains the positive integer n (1 ≤ n ≤ 1015).
+The single line contains the positive integer n (1 ≤ n ≤ 10 power 15).
 
 Output
 
