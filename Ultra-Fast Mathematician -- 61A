@@ -1,0 +1,23 @@
+import java.util.*;
+
+public class AlphaBeta{
+
+     public static void main(String[] args){
+		java.util.Scanner sc = new java.util.Scanner(System.in);
+        String m = sc.next();
+        String n = sc.next();
+        
+        char[] ch1 = m.toCharArray();
+        char[] ch2 = n.toCharArray();
+        String st = "";
+        for(int i=0; i<ch1.length; i++){
+            if(ch1[i]==ch2[i]){
+                st = st+0;
+            }else{
+                st = st+1;
+            }
+        }
+        
+        System.out.println(st);
+     }
+}
