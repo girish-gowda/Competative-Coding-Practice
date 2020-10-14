@@ -354,3 +354,14 @@ There are two lines in each input. Each of them contains a single number. It is 
 Output
 
 Write one line — the corresponding answer. Do not omit the leading 0s.
+
+
+***31. Drinks - 200B***
+
+Input
+
+The first input line contains a single integer n (1 ≤ n ≤ 100) — the number of orange-containing drinks in Vasya's fridge. The second line contains n integers pi (0 ≤ pi ≤ 100) — the volume fraction of orange juice in the i-th drink, in percent. The numbers are separated by a space.
+
+Output
+
+Print the volume fraction in percent of orange juice in Vasya's cocktail. The answer will be considered correct if the absolute or relative error does not exceed 10 power -4.
