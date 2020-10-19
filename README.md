@@ -376,3 +376,16 @@ Input data contains integer numbers k, l, m, n and d, each number in a sep
 Output
 
 Output the number of damaged dragons.
+
+
+***33. 469A***
+
+Input
+
+The first line contains a single integer n (1 ≤  n ≤ 100).
+
+The next line contains an integer p (0 ≤ p ≤ n) at first, then follows p distinct integers a1, a2, ..., ap (1 ≤ ai ≤ n). These integers denote the indices of levels Little X can pass. The next line contains the levels Little Y can pass in the same format. It's assumed that levels are numbered from 1 to n.
+
+Output
+
+If they can pass all the levels, print "I become the guy.". If it's impossible, print "Oh, my keyboard!" (without the quotes).
