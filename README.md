@@ -400,3 +400,14 @@ The first input line contains a non-empty string consisting of characters "0" an
 Output
 
 Print "YES" if the situation is dangerous. Otherwise, print "NO".
+
+
+***35. 133A - HQ9+***
+
+Input
+
+The input will consist of a single line p which will give a program in HQ9+. String p will contain between 1 and 100 characters, inclusive. ASCII-code of each character of p will be between 33 (exclamation mark) and 126 (tilde), inclusive.
+
+Output
+
+Output "YES", if executing the program will produce any output, and "NO" otherwise.
