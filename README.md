@@ -411,3 +411,16 @@ The input will consist of a single line p which will give a program in HQ9+. Str
 Output
 
 Output "YES", if executing the program will produce any output, and "NO" otherwise.
+
+
+***36. Kefa and First Steps - 580A***
+
+Input
+
+The first line contains integer n (1 ≤ n ≤ 105).
+
+The second line contains n integers a1,  a2,  ...,  an (1 ≤ ai ≤ 109).
+
+Output
+
+Print a single integer — the length of the maximum non-decreasing subsegment of sequence a.
