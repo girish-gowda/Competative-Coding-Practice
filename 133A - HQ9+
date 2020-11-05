@@ -1,0 +1,29 @@
+import java.util.*;
+
+public class AlphaBeta {
+      public static void main(String []args){
+        Scanner sc = new Scanner(System.in);
+        String str = sc.next();
+        String st = "HQ9+";
+        boolean flag = false;
+        for(int i=0;i<str.length();i++){
+            if(str.charAt(i)==st.charAt(0)){
+                flag = true;
+            }else if(str.charAt(i)==st.charAt(1)){
+                flag = true;
+            }else if(str.charAt(i)==st.charAt(2)){
+                flag = true;
+            }
+            
+            if(flag){
+                break;
+            }
+        }
+        
+        if(flag){
+            System.out.println("YES");
+        }else{
+            System.out.println("NO");
+        }
+     }
+}
