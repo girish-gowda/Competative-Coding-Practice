@@ -389,3 +389,14 @@ The next line contains an integer p (0 ≤ p ≤ n) at first, then follo
 Output
 
 If they can pass all the levels, print "I become the guy.". If it's impossible, print "Oh, my keyboard!" (without the quotes).
+
+
+***34. Football - 96A***
+
+Input
+
+The first input line contains a non-empty string consisting of characters "0" and "1", which represents players. The length of the string does not exceed 100 characters. There's at least one player from each team present on the field.
+
+Output
+
+Print "YES" if the situation is dangerous. Otherwise, print "NO".
